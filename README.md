@@ -14,4 +14,4 @@ we develop a single web page for imparting knowledge of the principles of using 
 
 ## screenshot
 
-![This is a alt text.](https://raw.githubusercontent.com/avi413/web_project_1/main/images/screencapture.png?token=AAE6G5R4YUKUCA3RU6BDAZLBROYVS)
+![This is a alt text.](https://github.com/avi413/web_project_1/blob/main/images/screencapture.png)
