@@ -3,8 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./styles/normalize.css">
-  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./pages/index.css">
   <title>Learning how to learn</title>
 </head>
 <body>
@@ -15,10 +14,11 @@
       <p class="header__subtitle">
         The most effective, cutting-edge learning
         techniques that you can apply to your daily life.
-        <a class="header__link" href="https://fs.blog/feynman-learning-technique/">Learn more →</a>
+        <a class="header__link semi-transparent" href="https://fs.blog/feynman-learning-technique/">Learn more →</a>
       </p>     
       <img class="header__main-illustration" src="./images/header-image.png" alt="main illustration">
-      <div class="header__square-pic"></div>
+      <div class="header__square-pic rotation"></div>
+      
     </header>
     <main class="content">
       <section class="description">
@@ -41,6 +41,75 @@
               effective learning.</p>
           </div>
         </article>
+      </section>
+      <section class="techniques">
+        <h2 class="section-title">Learning Techniques</h2>
+        <h3 class="section-subtitle">Five Strategies from Barbara Oakley</h3>
+        <ul class="cards">
+          <li class="cards__item">
+            <img src="./images/cards-attention.png" alt="Deep understanding comes from being able to toggle back and forth between focused and diffused thinking." class="cards__img">
+            <h4 class="cards__title">Two Ways of Thinking</h4>
+            <p class="cards__description">Deep understanding comes from being able to toggle back and forth between focused and diffused thinking.</p>
+          </li>
+          <li class="cards__item">
+            <img src="./images/cards-recall.png" alt="Improving your ability to remember key bits of information helps to connect different parts of the brain.
+
+            " class="cards__img">
+            <h4 class="cards__title">Recall</h4>
+            <p class="cards__description">Improving your ability to remember key bits of information helps to connect different parts of the brain.</p>
+          </li>
+          <li class="cards__item">
+            <img src="./images/cards-interleaving.png" alt="When you learn multiple skills at the same time, they reinforce each other." class="cards__img">
+            <h4 class="cards__title">Interleaving</h4>
+            <p class="cards__description">When you learn multiple skills at the same time, they reinforce each other.</p>
+          </li>
+          <li class="cards__item">
+            <img src="./images/cards-question.png" alt="When listening to your teacher, think up a good question, something that you're really itching to know." class="cards__img">
+            <h4 class="cards__title">Questions</h4>
+            <p class="cards__description">When listening to your teacher, think up a good question, something that you're really itching to know.</p>
+          </li>
+          <li class="cards__item">
+            <img src="./images/cards-competence.png" alt="Test yourself, write it down, tell other people, and repeat the process in different settings. Only then can you be truly certain you've understood something." class="cards__img">
+            <h4 class="cards__title">Illusion of Competence </h4>
+            <p class="cards__description">Test yourself, write it down, tell other people, and repeat the process in different settings. Only then can you be truly certain you've understood something.</p>
+          </li>
+          <li class="cards__item">
+           
+          </li>
+        </ul>
+      </section>
+      <section class="video">
+        <h2 class="section-title">TED talks</h2>
+        <h3 class="section-subtitle">For lovers of procrastinatio</h3>
+        <div class="video_iframes">
+          <iframe src="https://www.youtube.com/embed/5MgBikgcWnY" width="515" height="316" frameborder="0" class="video__iframe"></iframe>
+          <iframe src="https://www.youtube.com/embed/arj7oStGLkU" width="515" height="316" frameborder="0" class="video__iframe"></iframe>
+        </div>
+      </section>
+      <section class="oakley">
+        <article  class="two-columns">
+          <h2 class="two-columns__brief">Barbara Oakley’s story. </h2>
+          <div class="two-columns__main-text">
+            <p class="two-columns__paragraph">Math didn't come naturally to Barbara in childhood. She thought of herself as more of a 
+              humanities person, and not a brilliant one at that. With an eye to becoming a linguist, after 
+              school she enlisted in the army, who sent her to learn Russian. After several years of service, 
+              during which she rose to the rank of Captain, Barbara left the army and decided to study 
+              engineering. In was during this time that she developed her learning methodology as she was 
+              forced to reprogram her brain for a different kind of learning. It turns out that when something 
+              doesn't come naturally to you, having to work hard to gain the knowledge that other people 
+              may get at first glance gives you a deeper, more comprehensive understanding of the subject matter.</p>
+          </div>
+        </article>
+      </section>
+
+      <section class="feynman">
+        <h2 class="feynman__title">The Feynman Technique</h2>
+        <p class="feynman__subtitle">Learn without forgetting</p>
+        <a class="feynman__link semi-transparent" href="https://fs.blog/feynman-technique/">More →</a>
+        <img class="feynman__img" src="./images/feynman.png" alt="A picture of Richard
+        Feynman, a world-renowned quantum physicist. The Feynman
+        Technique is derived from his studying methods when he was a
+        student at Princeton">
       </section>
 
       <section class="digits">
@@ -105,14 +174,21 @@
         </ul>
       </section>
 
-      <section class="feynman">
-        <h2 class="feynman__title">The Feynman Technique</h2>
-        <p class="feynman__subtitle">Learn without forgetting</p>
-        <a class="feynman__link" href="">More →</a>
-        <img class="feynman__img" src="./images/feynman.png" alt="A picture of Richard
-        Feynman, a world-renowned quantum physicist. The Feynman
-        Technique is derived from his studying methods when he was a
-        student at Princeton">
+      <section class="khan">
+        <article class="khan__container">
+          <div class="khan__author">Salman Khan </div>
+          <h2 class="khan__title">The One World Schoolhouse</h2>
+          <p class="khan__quote">Sal Khan's passion and innovation is transforming learning for millions of 
+            students worldwide. The One World Schoolhouse is a must-read for all 
+            who are committed to improving education so students everywhere can 
+            gain the skills and knowledge to be successful in school, careers and life.</p>
+          <div class="khan__quote-author">George Lucas</div>
+          <div class="khan__quote-author-subline">Filmmaker</div>
+          <div class="khan__book-container">
+            <img src="./images/khan-book-2.png" alt="The One World Schoolhouse book" class="khan__book-pic">
+            <a href="https://www.amazon.com/One-World-Schoolhouse-Education-Reimagined/dp/1455508373" class="khan__nuy-link semi-transparent">Buy book  →</a>
+          </div>
+        </article>
       </section>
 
       <section class="kaufman">
@@ -170,8 +246,20 @@
             <p class="table__text table__text_theme_dark">Emphasize quantity and speed</p>
           </li>
         </ul>
-        <img class="kaufman__triangle" src="./images/kaufman-triangle.svg" alt="blue triangle">
+        <img class="kaufman__triangle rotation" src="./images/kaufman-triangle.svg" alt="blue triangle">
       </section>
+
+      <section class="resources">
+        <h2 class="section-title">Useful resources</h2>
+        <h3 class="section-subtitle">Further materials on learning techniques and hacks.</h3>
+        <div class="resources__logo-zone">
+          <a href="https://ed.ted.com/" ><img class="resources__logo" src="./images/logo/resources-tedED.png" alt="tedEd logo"></a>
+          <a href="https://medium.com/" ><img class="resources__logo" src="./images/logo/resources-Medium.png" alt="Medium logo"></a>
+          <a href="https://www.dezeen.com/" ><img class="resources__logo" src="./images/logo/resources-dezeen.png" alt="dezeen logo"></a>
+          <a href="https://www.goodreads.com/" ><img class="resources__logo" src="./images/logo/resources-goodreads.png" alt="goodreads logo"></a>
+        </div>
+      </section>
+
     </main>
     <footer class="footer">
       <div class="footer__columns">
@@ -183,17 +271,17 @@
           <h2 class="footer__column-heading">About Practicum by Yandex</h2>
           <nav>
             <ul class="footer__list">
-              <li><a class="footer__column-link" href="">Home page</a></li>
-              <li><a class="footer__column-link" href="">Mission</a></li>
-              <li><a class="footer__column-link" href="">Professions</a></li>
+              <li><a class="footer__column-link semi-transparent" href="#">Home page</a></li>
+              <li><a class="footer__column-link semi-transparent" href="#">Mission</a></li>
+              <li><a class="footer__column-link semi-transparent" href="#">Professions</a></li>
             </ul>
           </nav> 
         </div>
         <div class="footer__column footer__column_content_social">
           <h2 class="footer__column-heading">Social media</h2>
           <ul class="footer__list">
-            <li><a class="footer__column-link" href=""><img class="footer__social-icons" src="./images/facebook_white.svg" alt="Facebook">Facebook</a></li>
-            <li><a class="footer__column-link" href=""><img class="footer__social-icons" src="./images/instagram_white.svg" alt="Instagram">Instagram</a></li>  
+            <li><a class="footer__column-link semi-transparent" href="https://www.facebook.com/"><img class="footer__social-icons" src="./images/facebook_white.svg" alt="Facebook">Facebook</a></li>
+            <li><a class="footer__column-link semi-transparent" href="https://www.instagram.com/"><img class="footer__social-icons" src="./images/instagram_white.svg" alt="Instagram">Instagram</a></li>  
           </ul>
          </div>
       </div>

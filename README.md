@@ -1,0 +1,14 @@
+[![Author](https://img.shields.io/badge/author-Avi%20Dalal-lightgrey.svg?colorB=9900cc&style=flat-square)](https://www.avidalal.net)
+
+# Learning How to Learn 
+
+This is An educational project.
+In this project, 
+we develop a single web page for imparting knowledge of the principles of using HTML and CSS using Flexbox Core Concepts In combination CSS animation while applying the BEM methodology.
+
+
+## Features
+- Using Flexbox
+- CSS animation
+- Written in BEM (Block, Modifier, Modifier) naming convention for classes to provide a consistent and strict to easily extend the framework.
+

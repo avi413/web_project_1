@@ -1,0 +1,5 @@
+.cards__item {
+  text-align: center;
+  flex: 1 1 30%; /*grow | shrink | basis */
+  max-width: 240px;
+}

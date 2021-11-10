@@ -1,0 +1,8 @@
+.semi-transparent {
+    opacity: 1;
+    transition:  1s ease;
+}
+
+.semi-transparent:hover {
+    opacity: 0.6;
+  }
