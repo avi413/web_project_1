@@ -8,7 +8,10 @@ we develop a single web page for imparting knowledge of the principles of using 
 
 
 ## Features
-- Using Flexbox
+- Flexbox
 - CSS animation
 - Written in BEM (Block, Modifier, Modifier) naming convention for classes to provide a consistent and strict to easily extend the framework.
 
+## screenshot
+
+![This is a alt text.](https://raw.githubusercontent.com/avi413/web_project_1/main/images/screencapture.png?token=AAE6G5R4YUKUCA3RU6BDAZLBROYVS)
