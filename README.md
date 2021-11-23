@@ -6,6 +6,9 @@ This is An educational project.
 In this project, 
 we develop a single web page for imparting knowledge of the principles of using HTML and CSS using Flexbox Core Concepts In combination CSS animation while applying the BEM methodology.
 
+## Demo
+
+[Click me to go to web_project_1!](https://avi413.github.io/web_project_1)
 
 ## Features
 - Flexbox
